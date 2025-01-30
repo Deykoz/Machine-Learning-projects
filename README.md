@@ -5,11 +5,7 @@ Welcome to my collection of Machine Learning projects! This repository contains 
 ## Projects
 
 ### 1. **Multiple_Classification_Models.ipynb**
-   - **Description**: In this project, we aim to classify individuals based on the severity of Obstructive Sleep Apnea (OSA) using several classification models. The goal is to predict the severity level of OSA, categorized into three classes according to the Apnea-Hypopnea Index (AHI):
-     - **Healthy OSA** (IAH <= 10)
-     - **Moderate OSA** (IAH >10 and IAH <30)
-     - **Severe OSA** (IAH >= 30)
-   - **Features**: Age, BMI, and Cervical.
+   - **Description**: This project aims to classify the severity of Obstructive Sleep Apnea (OSA) into three categories: Healthy, Moderate, and Severe, based on features like Age, BMI, and Cervical.
    - **Dataset**: The dataset used for this analysis was provided by the Quirón Hospital of Málaga. It contains data from patients who were analyzed using Polysomnography after OSA was suspected.
    - **Objective**: The objective of the project is to compare the performance of various classification models and determine which one provides the most accurate prediction of OSA severity.
    - **Techniques Used**: Logistic Regression, Random Forest, Support Vector Machines (SVM), K-Nearest Neighbors (KNN), and more.
