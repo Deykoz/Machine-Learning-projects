@@ -25,4 +25,10 @@ Here is a list of the projects included in this repository:
    - **Results**: Model 2 achieved better generalization than Model 1, but both models still showed overfitting and need improvements. Techniques like adjusting LSTM units, dropout rates, and adding more layers could improve the model.
    - **Next Steps**: Explore strategies such as **increasing the number of LSTM units**, **adjusting dropout rates**, and **experimenting with different optimizers** for better convergence.
 
+### 4. **Multiple Regression Models**
+   - **Description**: In this project, we aim to predict the **Apnea-Hypopnea Index (IAH)** using features like **Age**, **BMI**, and **Cervical**. We evaluate the performance of various regression models, including both linear and non-linear approaches, to determine the most accurate model for IAH prediction.
+   - **Models Used**: Linear Regression, Ridge Regression, Lasso Regression, Elastic Net Regression, Polynomial Regression, Random Forest Regression.
+   - **Results**: **Polynomial Regression** performed the best with an **R²** of **0.2707**, while **Random Forest** showed poor performance, likely due to overfitting. The linear models (Linear, Ridge, Lasso, and Elastic Net) yielded similar results with **R²** around **0.25**.
+   - **Next Steps**: Investigate alternative ensemble methods for better performance, and explore hyperparameter tuning for the Random Forest model.
+
 Feel free to explore each project to understand the algorithms and techniques I used, along with any insights or challenges I encountered.
