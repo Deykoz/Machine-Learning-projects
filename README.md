@@ -18,7 +18,7 @@ Here is a list of the projects included in this repository:
    - **Dataset**: **CIFAR-10** dataset.
    - **Results**: The model achieved an accuracy of **75.8%**, with the best performance coming from optimizing **convolutional layers**, **batch size**, and using **LeakyReLU** activation.
    - **Next Steps**: Explore techniques like **data augmentation**, **transfer learning**, and further hyperparameter tuning.
-   - 
+     
 ### 3. **[Multiple_Classification_Models](./Multiple_Classification_Models)**
    - **Description**: Classify the severity of **Obstructive Sleep Apnea (OSA)** into three categories: Healthy, Moderate, and Severe, using classification models like **Logistic Regression**, **Random Forest**, **SVM**, and **KNN**. The goal is to determine which model gives the most accurate predictions.
    - **Dataset**: Provided by **Quirón Hospital of Málaga**.
