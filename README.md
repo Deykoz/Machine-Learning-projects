@@ -6,7 +6,7 @@ Welcome to my collection of Machine Learning projects! This repository contains 
 
 Here is a list of the projects included in this repository:
    
-### 1. **[Multiple_Classification_Models](./1_Multiple_Classification_Models)**
+### 1. **[Multiple_Classification_Models](./Multiple_Classification_Models)**
    - **Description**: Classify the severity of **Obstructive Sleep Apnea (OSA)** into three categories: Healthy, Moderate, and Severe, using classification models like **Logistic Regression**, **Random Forest**, **SVM**, and **KNN**. The goal is to determine which model gives the most accurate predictions.
    - **Dataset**: Provided by **Quirón Hospital of Málaga**.
    - **Results**: The best performance was achieved with **Gradient Boosting**, with an accuracy of **0.555**. 
