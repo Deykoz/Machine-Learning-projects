@@ -20,7 +20,7 @@ Here is a list of the projects included in this repository:
 
 ### 3. **[Weather Prediction using RNN](./Weather%20Prediction%20using%20RNN)**
    - **Description**: In this project, we predict the **maximum temperature** (`temp_max`) based on historical weather data, including variables like temperature, precipitation, wind speed, and minimum temperature. The goal is to create an accurate weather forecasting model using a **Recurrent Neural Network (RNN)**, which is effective for time series prediction due to its ability to capture temporal dependencies.
-   - **Dataset**: Daily weather records (temperature, precipitation, wind speed, etc.).
+   - **Dataset**: Daily weather records of Seatle found on Kaggle (temperature, precipitation, wind speed, etc.).
    - **Objective**: The objective is to predict the next day's maximum temperature using an RNN trained on historical weather data.
    - **Results**: Model 2 achieved better generalization than Model 1, but both models still showed overfitting and need improvements. Techniques like adjusting LSTM units, dropout rates, and adding more layers could improve the model.
    - **Next Steps**: Explore strategies such as **increasing the number of LSTM units**, **adjusting dropout rates**, and **experimenting with different optimizers** for better convergence.
