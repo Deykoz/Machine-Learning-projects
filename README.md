@@ -12,7 +12,7 @@ Here is a list of the projects included in this repository:
    - **Results**: The best performance was achieved with **Gradient Boosting**, with an accuracy of **0.555**. 
    - **Next Steps**: Apply techniques like **SMOTE**, feature transformations, and hyperparameter tuning.
 
-### 2. **[CNN for Image Classification (CIFAR-10)](./CNN for classification of image)**
+### 2. **[CNN for Image Classification (CIFAR-10)](./CNN%20for%20classification%20of%20image)**
    - **Description**: Build a **Convolutional Neural Network (CNN)** for classifying images from the **CIFAR-10 dataset**, which contains 60,000 images across 10 classes (e.g., airplanes, cars, animals). The focus is on understanding deep learning fundamentals such as **convolutional layers**, **pooling**, and **activation functions**.
    - **Dataset**: **CIFAR-10** dataset.
    - **Results**: The model achieved an accuracy of **75.8%**, with the best performance coming from optimizing **convolutional layers**, **batch size**, and using **LeakyReLU** activation.
