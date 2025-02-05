@@ -49,5 +49,5 @@ Due to time constraints, these approaches were not fully tested, but they provid
 
 ## Notebook
 
-You can find the notebook for this project here: [Weather_Prediction_using_RNN.ipynb](Weather_Prediction_using_RNN.ipynb)
+You can find the notebook for this project here: [RNN_weather_prediction.ipynb](RNN_weather_prediction.ipynb)
 
