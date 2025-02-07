@@ -54,3 +54,27 @@ To run MedicalChatbot, `cd` into MedicalChatbot repo on your computer and run `p
 server in development mode on localhost, port 5000.
 
 `* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`
+
+## Results
+
+Different types of models were trained on a medical dataset and tested for accuracy in predicting diseases based on symptoms.
+
+| Model                | Accuracy  | Notes                                      |
+|----------------------|----------|--------------------------------------------|
+| Logistic Regression | 96.3%    | High accuracy but limited learning capability |
+| KNN                | 100.0%   | Perfect accuracy, but potential overfitting |
+| Decision Tree      | 59.5%    | High variance, unstable predictions         |
+| SVM                | 18.5%    | Poor performance due to small dataset       |
+| Ensemble Model     | 79.3%    | Balanced approach with good generalization  |
+
+- The **Ensemble Model** combining multiple classifiers achieved the best balance between accuracy and generalization.
+- The chatbot accurately classifies symptoms and suggests relevant diseases with an interactive conversational flow.
+- Some limitations exist in handling complex symptom descriptions requiring further training on a larger dataset.
+
+## Future Improvements
+
+- **Expand the dataset**: Incorporate more diverse medical conditions and symptoms.
+- **Improve NLP understanding**: Use transformers (e.g., BERT) to enhance language comprehension.
+- **Add a voice-based interface**: Allow voice input and responses for a more interactive experience.
+- **Improve UI/UX**: Create a more user-friendly and visually appealing chatbot interface.
+- **Integrate with APIs**: Connect to real-time health databases for up-to-date medical information.
