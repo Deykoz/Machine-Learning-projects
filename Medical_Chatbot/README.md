@@ -71,6 +71,9 @@ Different types of models were trained on a medical dataset and tested for accur
 - The chatbot accurately classifies symptoms and suggests relevant diseases with an interactive conversational flow.
 - Some limitations exist in handling complex symptom descriptions requiring further training on a larger dataset.
 
+## Example of the robot 
+![Capture d'écran du projet](https://github.com/L-courtin/Machine-Learning-projects/blob/main/Medical_Chatbot/static/assets/img/Screen%20bot.png?raw=true)
+
 ## Future Improvements
 
 - **Expand the dataset**: Incorporate more diverse medical conditions and symptoms.
