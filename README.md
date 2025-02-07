@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine Learning Projects
 
 Welcome to my collection of Machine Learning projects! This repository contains various projects where I apply different machine learning techniques to real-world problems. Each project has its own folder with detailed descriptions, datasets, and notebooks.
